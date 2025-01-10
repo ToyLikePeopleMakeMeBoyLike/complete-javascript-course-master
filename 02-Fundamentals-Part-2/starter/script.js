@@ -149,4 +149,4 @@ console.log(jonas);
 console.log(jonas.lastname);
 ///
 ll
-l
+lk
