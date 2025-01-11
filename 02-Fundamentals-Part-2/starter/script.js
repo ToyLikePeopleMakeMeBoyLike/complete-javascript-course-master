@@ -147,6 +147,3 @@ const jonas = {
 console.log(jonas);
 
 console.log(jonas.lastname);
-///
-l
-lk
