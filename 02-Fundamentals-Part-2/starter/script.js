@@ -142,8 +142,13 @@ const jonas = {
     lastname: 'Schmedtmann',
     age: 2037 - 1991,
     job: 'teacher',
-    friends: ['Michael', 'Peter', 'Steven']
-};
-console.log(jonas);
+    friends: ['Michael', 'Peter', 'Steven'],
+    hasDriverLicense: true,
 
-console.log(jonas.lastname);
+    calcAge : function(birthYear) {
+        return 2037 - birthYear;
+    }
+};
+
+
+console.log(jonas.calcAge(1991));
