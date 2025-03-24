@@ -137,6 +137,7 @@ console.log(bills, tips);
 
 */
 
+/*
 const jonas = {
     firstname: 'Jonas',
     lastname: 'Schmedtmann',
@@ -152,3 +153,20 @@ const jonas = {
 
 
 console.log(jonas.calcAge(1991));
+*/
+
+
+const mark = {
+    fullName: 'Mark Miller',
+    mass: 78,
+    height: 1.69,
+    calcBMI: function(){
+        this.bmi = this.mass / this.height ** 2;
+        return this.bmi;
+    }
+}
+
+mark.calcBMI();
+console.log(mark.bmi);
+
+//
